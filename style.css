@@ -1,0 +1,178 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto';
+}
+
+body {
+	background-color: #24252A;
+}
+
+/* =============== Header =============== */
+
+.header-container {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.header-logo img {
+	width: 90px;
+	height: 90px;
+	margin-left: 32px;
+	cursor: pointer;
+	/*margin-top: 19px;*/
+}
+
+.header-logo img:hover {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.header-menu {
+	margin-left: 416px;
+}
+
+.header-menu a{
+	text-decoration: none;
+	color: white;
+
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 15px;
+
+	color: #FFFFFF;
+	transition: 0.5s all;
+}
+
+.header-menu a:hover {
+	color: #7833FF;
+}
+
+.header-links {
+	margin-left: 55px;
+	padding-left: 55px;
+}
+
+/* ================ Main ================== */
+.main-suporte {
+	display: flex;
+	justify-content: center;
+
+	margin-top: 55px;
+}
+
+.main-suporte-discord {
+	display: flex;
+	justify-content: center;
+
+	margin-top: 20px;	
+}
+
+.main-suporte-button {
+	display: flex;
+	justify-content: center;
+
+	margin-top: 30px;	
+}
+
+.main-suporte h2 {
+	color: #FFFFFF;
+	font-style: normal;
+   font-weight: normal;
+}
+
+.main-suporte-discord p {
+	color: #989898;
+	font-style: italic;
+	font-weight: 300;
+	font-size: 20px;
+}
+
+.main-suporte-button button {
+	padding: 15px 7px 15px 7px;
+
+	font-size: 18px;
+	color: #FFFFFF;
+	background-color: #A77AFF;
+	border: 1px solid transparent;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.5s all;
+}
+
+.main-suporte-button a:hover button{
+	background-color: #7833FF;
+}
+
+/* ================ Footer ================= */
+
+footer {
+	background-color: #17181b;
+	height: 440px;
+	margin-top: 220px;
+	display: flex;
+	justify-content: center;
+}
+
+.footer-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: white;
+  margin-top: 60px;
+}
+
+.footer-separation {
+	margin-right: 300px;
+	margin-left: 350px;
+}
+
+.links-separation-top {
+	margin-top: 10px;
+}
+
+.footer-bot h2 {
+	font-size: 25px;
+}
+
+.footer-bot p {
+	margin-top: 10px;
+}
+
+.footer-links h2 {
+	font-size: 25px;
+}
+
+.footer-links a {
+	display: flex;
+    flex-direction: column;
+
+    text-decoration: none;
+    color: #A77AFF;
+
+    transition: 0.5s all;
+}
+
+.footer-links a:hover {
+	color: #7833FF;
+}
+
+.footer-use p {
+	margin-top: 10px;
+}
+
+
+.footer-email button {
+	padding: 15px 15px 15px 15px;
+
+	font-size: 18px;
+	color: #17181b;
+	background-color: #A77AFF;
+	border: 1px solid transparent;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.5s all;
+}
+
